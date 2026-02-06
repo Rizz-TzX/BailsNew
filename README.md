@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/rhm9rt.webp" width="172">
+  <img src="[https://files.catbox.moe/p3tv9o.jpg]" width="172">
 </p>
 
 --- 
@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys"
+  "@whiskeysockets/baileys": "github:Rizz-Tzx/BailsNew"
 }
 ```
 ## Import
@@ -48,7 +48,7 @@ const client = makeWASocket({
 });
 
 const number = "628XXXXX";
-const code = await client.requestPairingCode(number.trim) /* Use : (number, "YYYYYYYY") for custom-pairing */
+const code = await client.requestPairingCode(number.trim) /* Use : (number, "RRRRRRRR") for custom-pairing */
 
 console.log("Ur pairing code : " + code)
 ```
@@ -58,12 +58,12 @@ console.log("Ur pairing code : " + code)
 ## send orderMessage
 ```javascript
 const fs = require('fs');
-const ZeppImg = fs.readFileSync('./ZeppImage');
+const `ReyzImg = fs.readFileSync('./ReyzImg');
 
 await client.sendMessage(m.chat, {
-  thumbnail: ZeppImg,
+  thumbnail: ReyzImg,
   message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  orderTitle: "R9X",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -73,7 +73,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "R9X",
     options: [
       {
         optionName: "poll 1"
@@ -83,7 +83,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "R9X",
       newsletterJid: "1@newsletter"
     }
   }
